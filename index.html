@@ -6,7 +6,7 @@
   <meta name="description" content="Buat link undangan digital dan pesan WhatsApp siap kirim dengan cepat.">
   <meta name="theme-color" content="#7a4e5c">
   <title>Invitation Link Generator</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
@@ -20,7 +20,7 @@
     </header>
 
     <section class="card" aria-labelledby="guestNameLabel">
-      <form id="guestForm" novalidate>
+      <form id="guestForm" action="#" novalidate onsubmit="return false;">
         <label id="guestNameLabel" for="guestName" class="field-label">Nama Tamu</label>
 
         <input
@@ -97,6 +97,6 @@
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=2"></script>
 </body>
 </html>
