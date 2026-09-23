@@ -3,7 +3,7 @@
    Semua proses berjalan di browser (tanpa backend).
    ============================================================ */
 
-function () {
+(function () {
   "use strict";
 
   // URL dasar undangan — JANGAN diubah.
